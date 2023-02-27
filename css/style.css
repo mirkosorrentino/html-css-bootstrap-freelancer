@@ -3,15 +3,47 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* VARIABLES */
 :root {
     --header-color: #2C3E50;
     --jumbo-color: #1ABC9C;
-    footer-light-color: #3A546D;
+    --footer-light-color: #3A546D;
 }
 
 /* HEADER */
+header {
+    color: white;
+    height: 70px;
+    background-color: var(--header-color);
+}
 
 /* MAIN */
+/* jumbotron */
+.ms_jumbotron {
+    background-color: var(--jumbo-color);
+
+    /* debug */
+    min-height: 400px;
+}
+
+/* About */
+.ms_about {
+    color: white;
+    background-color: var(--jumbo-color);
+}
+
+.ms_container {
+    width: 70%;
+    margin: auto;
+}
 
 /* FOOTER */
