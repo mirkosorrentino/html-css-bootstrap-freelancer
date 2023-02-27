@@ -54,3 +54,15 @@ header {
 }
 
 /* FOOTER */
+
+footer {
+    color: white;
+}
+
+.ms_upper-footer {
+    background-color: var(--footer-light-color);
+}
+
+.ms_lower-footer {
+    background-color: var(--header-color);
+}
