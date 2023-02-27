@@ -19,6 +19,12 @@ a {
     --footer-light-color: #3A546D;
 }
 
+/* COMMON */
+.ms_container {
+    width: 70%;
+    margin: auto;
+}
+
 /* HEADER */
 header {
     color: white;
@@ -41,9 +47,10 @@ header {
     background-color: var(--jumbo-color);
 }
 
-.ms_container {
-    width: 70%;
-    margin: auto;
+/* contact */
+.ms_btn {
+    color: white;
+    background-color: var(--jumbo-color);
 }
 
 /* FOOTER */
