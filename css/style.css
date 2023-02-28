@@ -25,6 +25,32 @@ a {
     margin: auto;
 }
 
+.ms_line {
+    width: 5rem;
+    height: 3px;
+}
+
+.ms_star {
+    font-size: 1.5rem;
+    padding: 0 .6rem;
+}
+
+.ms_white-back {
+    background-color: white;
+}
+
+.ms_white-color {
+    color: white;
+}
+
+.ms_blue-back {
+    background-color: var(--header-color);
+}
+
+.ms_blue-color {
+    color: var(--header-color);
+}
+
 /* HEADER */
 header {
     color: white;
@@ -32,25 +58,67 @@ header {
     background-color: var(--header-color);
 }
 
+.ms_header-nav li {
+    padding-left: 1rem;
+}
+
 /* MAIN */
 /* jumbotron */
 .ms_jumbotron {
     background-color: var(--jumbo-color);
+    color: white;
+}
 
-    /* debug */
-    min-height: 400px;
+.ms_main-title {
+    text-transform: uppercase;
+    padding: .8rem 0;
+}
+
+.ms_avatar {
+    width: 200px;
+}
+
+.ms_job-description {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+/* Portfolio */
+.ms_second-title {
+    text-transform: uppercase;
+    padding: .8rem;
 }
 
 /* About */
 .ms_about {
+    background-color: var(--jumbo-color);
+    padding: 2rem;
+}
+
+.ms_grid {
+    padding: 1rem 0;
+}
+
+/* contact */
+
+.ms_contact {
+    padding: 2rem;
+}
+
+.ms_btn {
     color: white;
     background-color: var(--jumbo-color);
 }
 
-/* contact */
+.ms_form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
 .ms_btn {
-    color: white;
-    background-color: var(--jumbo-color);
+    margin-top: 2rem;
 }
 
 /* FOOTER */
@@ -61,6 +129,12 @@ footer {
 
 .ms_upper-footer {
     background-color: var(--footer-light-color);
+}
+
+.ms_border {
+    padding: .2rem;
+    width: 40px;
+    height: 40px;
 }
 
 .ms_lower-footer {
